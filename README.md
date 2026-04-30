@@ -15,7 +15,7 @@ do not edit config.txt auto initramfs is enabled kernel load automatic
 
 
        sudo ./build-kernel -b default -c 6 -j 6 -u -d        ### rpi4 rt-kernel
-       
+       sudo ./build-kernel --branch rpi-6.18.y -  -c 6 -j 6 -u -d 
 
        sudo ./build-kernel -b default -c 3 -j 6 -u -d        ### rpi4 armv7l-kernel no realtime
 
